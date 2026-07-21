@@ -1,4 +1,4 @@
-# ITEC313 - Object-Oriented Programming
+# ITEC313 - Advanced Programming Concepts
 
 This repository contains additional resources and projects for **ITEC313 - Advanced Programming Concepts** course. The repository is organized to provide a comprehensive learning path through Java programming fundamentals and object-oriented programming concepts.
 
@@ -94,7 +94,7 @@ When you run the HelloWorld program, you should see:
 ```
 Hello, World!
 Welcome to Java programming!
-Course: ITEC313 - Object-Oriented Programming
+Course: ITEC313 - Advanced Programming Concepts
 Year: 2025
 =====================================
 This program demonstrates:
