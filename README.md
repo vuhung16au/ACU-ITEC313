@@ -1,6 +1,10 @@
 # ITEC313 - Advanced Programming Concepts
 
-This repository contains additional resources and projects for **ITEC313 - Advanced Programming Concepts** course. The repository is organized to provide a comprehensive learning path through Java programming fundamentals and object-oriented programming concepts.
+Note: `ITEC621` (Advanced Programming Principles) and `ITEC313` (Advanced Programming Concepts) share the same repo.
+
+This repository contains additional resources and projects for **ITEC313 - Advanced Programming Concepts** (and `ITEC621` - Advanced Programming Principles) course. 
+
+The repository is organized to provide a comprehensive learning path through Java programming fundamentals and object-oriented programming concepts.
 
 ## 📁 Repository Structure
 
