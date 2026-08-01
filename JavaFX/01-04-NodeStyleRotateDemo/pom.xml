@@ -5,6 +5,12 @@
          http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <parent>
+        <groupId>com.acu</groupId>
+        <artifactId>javafx-course-projects</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
     <groupId>com.acu.javafx</groupId>
     <artifactId>node-style-rotate-demo</artifactId>
     <version>1.0.0</version>
@@ -12,22 +18,6 @@
 
     <name>JavaFX Node Style and Rotate Demo</name>
     <description>A JavaFX application demonstrating node styling and rotation</description>
-
-    <properties>
-        <maven.compiler.source>21</maven.compiler.source>
-        <maven.compiler.target>21</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        
-        <!-- JavaFX Version -->
-        <javafx.version>21</javafx.version>
-        <javafx.maven.plugin.version>0.0.8</javafx.maven.plugin.version>
-        
-        <!-- Platform Detection -->
-        <platform.classifier></platform.classifier>
-        
-        <!-- Main Class -->
-        <main.class>com.acu.javafx.rotate.Launcher</main.class>
-    </properties>
 
     <profiles>
         <!-- macOS Intel (x86_64) -->
@@ -39,9 +29,7 @@
                     <arch>x86_64</arch>
                 </os>
             </activation>
-            <properties>
-                <platform.classifier>mac</platform.classifier>
-            </properties>
+            
         </profile>
 
         <!-- macOS Apple Silicon (ARM64) -->
@@ -53,9 +41,7 @@
                     <arch>aarch64</arch>
                 </os>
             </activation>
-            <properties>
-                <platform.classifier>mac-aarch64</platform.classifier>
-            </properties>
+            
         </profile>
 
         <!-- Windows x86_64 -->
@@ -67,9 +53,7 @@
                     <arch>amd64</arch>
                 </os>
             </activation>
-            <properties>
-                <platform.classifier>win</platform.classifier>
-            </properties>
+            
         </profile>
 
         <!-- Windows ARM64 -->
@@ -81,9 +65,7 @@
                     <arch>aarch64</arch>
                 </os>
             </activation>
-            <properties>
-                <platform.classifier>win-aarch64</platform.classifier>
-            </properties>
+            
         </profile>
 
         <!-- Linux x86_64 -->
@@ -96,9 +78,7 @@
                     <arch>amd64</arch>
                 </os>
             </activation>
-            <properties>
-                <platform.classifier>linux</platform.classifier>
-            </properties>
+            
         </profile>
 
         <!-- Linux ARM64 -->
@@ -111,9 +91,7 @@
                     <arch>aarch64</arch>
                 </os>
             </activation>
-            <properties>
-                <platform.classifier>linux-aarch64</platform.classifier>
-            </properties>
+            
         </profile>
     </profiles>
 

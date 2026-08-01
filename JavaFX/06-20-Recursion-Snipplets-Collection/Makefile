@@ -1,11 +1,10 @@
 .PHONY: build clean run
 
 build:
-	mvn compile
+	@echo "Nothing to build"
 
 clean:
-	-mvn clean
-	-rm -rf target
+	@echo "Nothing to clean"
 
 run:
-	mvn javafx:run
+	@echo "Nothing to run"

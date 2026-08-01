@@ -5,6 +5,12 @@
          http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <parent>
+        <groupId>com.acu</groupId>
+        <artifactId>javafx-course-projects</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
     <groupId>com.acu.javafx</groupId>
     <artifactId>performancetest</artifactId>
     <version>1.0.0</version>
@@ -12,20 +18,6 @@
 
     <name>JavaFX Performance Test</name>
     <description>JavaFX application demonstrating performance testing with different algorithms</description>
-
-    <properties>
-        <maven.compiler.source>24</maven.compiler.source>
-        <maven.compiler.target>24</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <javafx.version>21</javafx.version>
-        <javafx.maven.plugin.version>0.0.8</javafx.maven.plugin.version>
-        
-        <!-- Platform detection properties -->
-        <os.detected.classifier>mac</os.detected.classifier>
-        <os.detected.name>mac</os.detected.name>
-        <os.detected.arch>aarch64</os.detected.arch>
-        <os.detected.version>24.5.0</os.detected.version>
-    </properties>
 
     <dependencies>
         <!-- JavaFX Dependencies -->
@@ -112,9 +104,7 @@
                     <family>mac</family>
                 </os>
             </activation>
-            <properties>
-                <os.detected.classifier>mac</os.detected.classifier>
-            </properties>
+            
         </profile>
 
         <!-- Profile for Windows -->
@@ -125,9 +115,7 @@
                     <family>windows</family>
                 </os>
             </activation>
-            <properties>
-                <os.detected.classifier>win</os.detected.classifier>
-            </properties>
+            
         </profile>
 
         <!-- Profile for Linux -->
@@ -138,9 +126,7 @@
                     <family>unix</family>
                 </os>
             </activation>
-            <properties>
-                <os.detected.classifier>linux</os.detected.classifier>
-            </properties>
+            
         </profile>
     </profiles>
 </project> 

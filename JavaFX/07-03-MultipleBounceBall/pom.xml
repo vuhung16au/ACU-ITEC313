@@ -5,6 +5,12 @@
          http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <parent>
+        <groupId>com.acu</groupId>
+        <artifactId>javafx-course-projects</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
     <groupId>com.acu.javafx</groupId>
     <artifactId>multiplebounceball</artifactId>
     <version>1.0.0</version>
@@ -12,14 +18,6 @@
 
     <name>Multiple Bounce Ball JavaFX Application</name>
     <description>A JavaFX application demonstrating multiple bouncing balls with animation controls</description>
-
-    <properties>
-        <maven.compiler.source>24</maven.compiler.source>
-        <maven.compiler.target>24</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <javafx.version>21</javafx.version>
-        <javafx.maven.plugin.version>0.0.8</javafx.maven.plugin.version>
-    </properties>
 
     <dependencies>
         <!-- JavaFX Dependencies -->

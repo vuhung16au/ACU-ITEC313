@@ -5,6 +5,12 @@
          http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <parent>
+        <groupId>com.acu</groupId>
+        <artifactId>javafx-course-projects</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
     <groupId>com.acu.javafx</groupId>
     <artifactId>closestpair</artifactId>
     <version>1.0.0</version>
@@ -12,14 +18,6 @@
 
     <name>ClosestPair JavaFX Demo</name>
     <description>JavaFX application demonstrating the Closest Pair algorithm</description>
-
-    <properties>
-        <maven.compiler.source>24</maven.compiler.source>
-        <maven.compiler.target>24</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <javafx.version>21</javafx.version>
-        <javafx.maven.plugin.version>0.0.8</javafx.maven.plugin.version>
-    </properties>
 
     <dependencies>
         <!-- JavaFX Dependencies -->
@@ -102,9 +100,7 @@
                     <arch>aarch64</arch>
                 </os>
             </activation>
-            <properties>
-                <javafx.platform>mac-aarch64</javafx.platform>
-            </properties>
+            
         </profile>
         <profile>
             <id>mac-x86_64</id>
@@ -114,9 +110,7 @@
                     <arch>x86_64</arch>
                 </os>
             </activation>
-            <properties>
-                <javafx.platform>mac</javafx.platform>
-            </properties>
+            
         </profile>
         <profile>
             <id>linux-x86_64</id>
@@ -127,9 +121,7 @@
                     <arch>x86_64</arch>
                 </os>
             </activation>
-            <properties>
-                <javafx.platform>linux</javafx.platform>
-            </properties>
+            
         </profile>
         <profile>
             <id>linux-aarch64</id>
@@ -140,9 +132,7 @@
                     <arch>aarch64</arch>
                 </os>
             </activation>
-            <properties>
-                <javafx.platform>linux-aarch64</javafx.platform>
-            </properties>
+            
         </profile>
         <profile>
             <id>win-x86_64</id>
@@ -152,9 +142,7 @@
                     <arch>x86_64</arch>
                 </os>
             </activation>
-            <properties>
-                <javafx.platform>win</javafx.platform>
-            </properties>
+            
         </profile>
         <profile>
             <id>win-aarch64</id>
@@ -164,9 +152,7 @@
                     <arch>aarch64</arch>
                 </os>
             </activation>
-            <properties>
-                <javafx.platform>win-aarch64</javafx.platform>
-            </properties>
+            
         </profile>
     </profiles>
 </project>

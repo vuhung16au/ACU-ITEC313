@@ -5,6 +5,12 @@
          http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <parent>
+        <groupId>com.acu</groupId>
+        <artifactId>javafx-course-projects</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
     <groupId>com.acu.javafx</groupId>
     <artifactId>evaluate-expression</artifactId>
     <version>1.0.0</version>
@@ -12,14 +18,6 @@
 
     <name>EvaluateExpression JavaFX Application</name>
     <description>A JavaFX application for evaluating mathematical expressions</description>
-
-    <properties>
-        <maven.compiler.source>24</maven.compiler.source>
-        <maven.compiler.target>24</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <javafx.version>21</javafx.version>
-        <javafx.maven.plugin.version>0.0.8</javafx.maven.plugin.version>
-    </properties>
 
     <dependencies>
         <!-- JavaFX Dependencies -->
@@ -102,10 +100,7 @@
                     <family>mac</family>
                 </os>
             </activation>
-            <properties>
-                <!-- Use Apple Silicon classifier on M1/M2/M3 Macs -->
-                <javafx.platform>mac-aarch64</javafx.platform>
-            </properties>
+            
         </profile>
 
         <!-- Profile for Windows -->
@@ -116,9 +111,7 @@
                     <family>windows</family>
                 </os>
             </activation>
-            <properties>
-                <javafx.platform>win</javafx.platform>
-            </properties>
+            
         </profile>
 
         <!-- Profile for Linux -->
@@ -129,9 +122,7 @@
                     <family>unix</family>
                 </os>
             </activation>
-            <properties>
-                <javafx.platform>linux</javafx.platform>
-            </properties>
+            
         </profile>
     </profiles>
 </project> 

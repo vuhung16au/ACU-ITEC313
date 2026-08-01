@@ -4,6 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <parent>
+        <groupId>com.acu</groupId>
+        <artifactId>javafx-course-projects</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
     <groupId>com.acu.javafx</groupId>
     <artifactId>postfix-notation</artifactId>
     <version>1.0.0</version>
@@ -12,44 +18,36 @@
     <name>07-12-Postfix-Notation</name>
     <description>JavaFX postfix expression evaluator with tests</description>
 
-    <properties>
-        <maven.compiler.source>24</maven.compiler.source>
-        <maven.compiler.target>24</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <javafx.version>24</javafx.version>
-        <javafx.maven.plugin.version>0.0.8</javafx.maven.plugin.version>
-    </properties>
-
     <profiles>
         <profile>
             <id>mac-aarch64</id>
             <activation><os><family>mac</family><arch>aarch64</arch></os></activation>
-            <properties><javafx.platform>mac-aarch64</javafx.platform></properties>
+            
         </profile>
         <profile>
             <id>mac-x86_64</id>
             <activation><os><family>mac</family><arch>x86_64</arch></os></activation>
-            <properties><javafx.platform>mac</javafx.platform></properties>
+            
         </profile>
         <profile>
             <id>linux-x86_64</id>
             <activation><os><family>unix</family><name>linux</name><arch>x86_64</arch></os></activation>
-            <properties><javafx.platform>linux</javafx.platform></properties>
+            
         </profile>
         <profile>
             <id>linux-aarch64</id>
             <activation><os><family>unix</family><name>linux</name><arch>aarch64</arch></os></activation>
-            <properties><javafx.platform>linux-aarch64</javafx.platform></properties>
+            
         </profile>
         <profile>
             <id>win-x86_64</id>
             <activation><os><family>windows</family><arch>x86_64</arch></os></activation>
-            <properties><javafx.platform>win</javafx.platform></properties>
+            
         </profile>
         <profile>
             <id>win-aarch64</id>
             <activation><os><family>windows</family><arch>aarch64</arch></os></activation>
-            <properties><javafx.platform>win-aarch64</javafx.platform></properties>
+            
         </profile>
     </profiles>
 

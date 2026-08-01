@@ -5,6 +5,12 @@
          http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <parent>
+        <groupId>com.acu</groupId>
+        <artifactId>javafx-course-projects</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
     <groupId>com.acu.javafx</groupId>
     <artifactId>flagrisinganimation</artifactId>
     <version>1.0.0</version>
@@ -12,17 +18,6 @@
 
     <name>FlagRisingAnimation</name>
     <description>JavaFX Flag Rising Animation Demo</description>
-
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>24</maven.compiler.source>
-        <maven.compiler.target>24</maven.compiler.target>
-        <javafx.version>21</javafx.version>
-        <javafx.maven.plugin.version>0.0.8</javafx.maven.plugin.version>
-        <maven.compiler.plugin.version>3.11.0</maven.compiler.plugin.version>
-        <maven.shade.plugin.version>3.4.1</maven.shade.plugin.version>
-        <os.detected.classifier>${os.detected.name}-${os.detected.arch}</os.detected.classifier>
-    </properties>
 
     <dependencies>
         <!-- JavaFX Dependencies with Platform-Specific Classifiers -->
@@ -117,9 +112,7 @@
                     <arch>aarch64</arch>
                 </os>
             </activation>
-            <properties>
-                <os.detected.classifier>mac-aarch64</os.detected.classifier>
-            </properties>
+            
         </profile>
         <profile>
             <id>mac-x86_64</id>
@@ -129,9 +122,7 @@
                     <arch>x86_64</arch>
                 </os>
             </activation>
-            <properties>
-                <os.detected.classifier>mac</os.detected.classifier>
-            </properties>
+            
         </profile>
         <profile>
             <id>win-x86_64</id>
@@ -141,9 +132,7 @@
                     <arch>x86_64</arch>
                 </os>
             </activation>
-            <properties>
-                <os.detected.classifier>win</os.detected.classifier>
-            </properties>
+            
         </profile>
         <profile>
             <id>win-aarch64</id>
@@ -153,9 +142,7 @@
                     <arch>aarch64</arch>
                 </os>
             </activation>
-            <properties>
-                <os.detected.classifier>win-aarch64</os.detected.classifier>
-            </properties>
+            
         </profile>
         <profile>
             <id>linux-x86_64</id>
@@ -166,9 +153,7 @@
                     <arch>x86_64</arch>
                 </os>
             </activation>
-            <properties>
-                <os.detected.classifier>linux</os.detected.classifier>
-            </properties>
+            
         </profile>
         <profile>
             <id>linux-aarch64</id>
@@ -179,9 +164,7 @@
                     <arch>aarch64</arch>
                 </os>
             </activation>
-            <properties>
-                <os.detected.classifier>linux-aarch64</os.detected.classifier>
-            </properties>
+            
         </profile>
     </profiles>
 </project> 

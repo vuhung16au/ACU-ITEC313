@@ -1,15 +1,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.acu</groupId>
+        <artifactId>javafx-course-projects</artifactId>
+        <version>1.0.0</version>
+    </parent>
     <groupId>com.example</groupId>
     <artifactId>JavaFX-HelloWorld</artifactId>
     <version>1.0</version>
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>25</maven.compiler.source>
-        <maven.compiler.target>25</maven.compiler.target>
-        <javafx.version>25.0.4</javafx.version>
-    </properties>
+    
     <!-- Provide an (empty) dependencyManagement section so plugins expecting it (e.g., dependency:analyze-exclusions)
          don't encounter a null reference. -->
     <dependencyManagement>
