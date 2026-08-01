@@ -8,4 +8,4 @@ clean:
 	-rm -rf target
 
 run:
-	mvn javafx:run
+	mvn spring-boot:run
