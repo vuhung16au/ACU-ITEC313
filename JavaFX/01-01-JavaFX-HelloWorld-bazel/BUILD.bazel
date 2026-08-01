@@ -45,8 +45,3 @@ java_binary(
     ],
 )
 
-sh_binary(
-    name = "run_app",
-    srcs = ["run_app.sh"],
-    data = [":app"],
-)

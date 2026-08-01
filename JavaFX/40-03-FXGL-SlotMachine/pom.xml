@@ -60,7 +60,6 @@
                 <configuration>
                     <source>${maven.compiler.source}</source>
                     <target>${maven.compiler.target}</target>
-                    <release>${java.version}</release>
                     <compilerArgs>
                         <arg>--enable-preview</arg>
                     </compilerArgs>

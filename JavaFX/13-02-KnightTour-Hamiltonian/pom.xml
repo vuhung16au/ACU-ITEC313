@@ -91,7 +91,6 @@
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
             <version>${javafx.version}</version>
-            <classifier>${javafx.platform}</classifier>
         </dependency>
 
         <!-- JavaFX FXML -->
@@ -99,7 +98,6 @@
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-fxml</artifactId>
             <version>${javafx.version}</version>
-            <classifier>${javafx.platform}</classifier>
         </dependency>
 
         <!-- JavaFX Graphics -->
@@ -107,7 +105,6 @@
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-graphics</artifactId>
             <version>${javafx.version}</version>
-            <classifier>${javafx.platform}</classifier>
         </dependency>
 
         <!-- JavaFX Base -->
@@ -115,7 +112,6 @@
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-base</artifactId>
             <version>${javafx.version}</version>
-            <classifier>${javafx.platform}</classifier>
         </dependency>
 
         <!-- JUnit for testing -->
