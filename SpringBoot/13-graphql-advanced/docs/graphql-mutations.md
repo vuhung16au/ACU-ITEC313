@@ -29,7 +29,7 @@ mutation {
 {
   "data": {
     "login": {
-      "token": "eyJhbGciOiJIUzUxMiJ9...",
+      "token": "eyJhbG......",
       "user": {
         "id": "1",
         "username": "313@acu.com",

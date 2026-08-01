@@ -32,7 +32,7 @@ curl -X POST http://localhost:8081/auth/login \
 **Response**:
 ```json
 {
-  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+  "token": "eyJhbGci......",
   "username": "313@acu.com",
   "role": "ADMIN"
 }
