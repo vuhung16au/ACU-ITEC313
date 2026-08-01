@@ -29,10 +29,10 @@ This single command will:
 Before running the quick start, make sure you have:
 
 ### Required Tools
-- **Java 17+** - [Download from Adoptium](https://adoptium.net/)
-- **Maven 3.9+** - [Installation Guide](https://maven.apache.org/install.html)
-- **Docker** - [Get Docker](https://www.docker.com/get-started)
-- **Docker Compose** - Usually included with Docker Desktop
+- **Java 17+** 
+- **Maven 3.9+** 
+- **Docker** 
+- **Docker Compose** 
 - **curl** - For API testing (usually pre-installed)
 
 ### Optional Tools

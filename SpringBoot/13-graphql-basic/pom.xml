@@ -6,10 +6,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.5.0</version>
-        <relativePath/>
+        <groupId>com.acu</groupId>
+        <artifactId>spring-boot-examples</artifactId>
+        <version>1.0.0</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
 
     <groupId>com.acu</groupId>
@@ -18,9 +18,7 @@
     <name>13-spring-graphql-basic</name>
     <description>Spring Boot GraphQL Server</description>
 
-    <properties>
-        <java.version>17</java.version>
-    </properties>
+    
 
     <dependencies>
         <dependency>

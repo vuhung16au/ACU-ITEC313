@@ -6,7 +6,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.3.2</version>
+        <version>4.1.0</version>
         <relativePath/>
     </parent>
 
@@ -18,12 +18,12 @@
     <description>Collection of Spring Boot examples and tutorials</description>
 
     <properties>
-        <java.version>17</java.version>
+        <java.version>25</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <spring-cloud.version>2023.0.0</spring-cloud.version>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.source>25</maven.compiler.source>
+        <maven.compiler.target>25</maven.compiler.target>
     </properties>
 
     <modules>
@@ -34,7 +34,7 @@
         <module>03-web-thymeleaf-i18n</module>
         <module>04-rest-advanced</module>
         <module>05-data-jpa</module>
-        <module>06-kafka</module>
+        
         
         <!-- Microservices -->
         <module>07-microservices/api-gateway</module>
