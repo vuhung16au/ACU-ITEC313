@@ -23,7 +23,7 @@ public class KafkaService {
     private static final int MAX_MESSAGES_IN_MEMORY = 1000;
 
     @Autowired
-    private KafkaTemplate<String, Message> kafkaTemplate;
+    private KafkaTemplate<String, Object> kafkaTemplate;
 
     private final List<Message> receivedMessages = new ArrayList<>();
     private final AtomicLong totalMessagesSent = new AtomicLong(0);
@@ -39,7 +39,7 @@ public class KafkaService {
         }
     }
 
-    public CompletableFuture<SendResult<String, Message>> sendMessage(Message message) {
+    public CompletableFuture<SendResult<String, Object>> sendMessage(Message message) {
         if (message.getId() == null) {
             message.setId(UUID.randomUUID().toString());
         }

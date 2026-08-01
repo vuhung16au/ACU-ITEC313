@@ -108,7 +108,7 @@ wait_for_health() {
         
         local all_healthy=true
         for service in "${SERVICES[@]}"; do
-            local health=$(docker-compose ps --format json | jq -r ".[] | select(.Service == \"$service\") | .Health")
+            local health=$(docker-compose ps --format json | jq -r "if type==\"array\" then .[] else . end | select(.Service == \"$service\") | .Health")
             if [[ "$health" != "healthy" ]]; then
                 all_healthy=false
                 log_info "$service is $health"
@@ -140,8 +140,8 @@ show_status() {
     # Show health status
     log_info "Health Status:"
     for service in "${SERVICES[@]}"; do
-        local status=$(docker-compose ps --format json | jq -r ".[] | select(.Service == \"$service\") | .Health // \"unknown\"")
-        local state=$(docker-compose ps --format json | jq -r ".[] | select(.Service == \"$service\") | .State")
+        local status=$(docker-compose ps --format json | jq -r "if type==\"array\" then .[] else . end | select(.Service == \"$service\") | .Health // \"unknown\"")
+        local state=$(docker-compose ps --format json | jq -r "if type==\"array\" then .[] else . end | select(.Service == \"$service\") | .State")
         
         if [[ "$status" == "healthy" ]]; then
             echo -e "  ${service}: ${GREEN}${status}${NC} (${state})"

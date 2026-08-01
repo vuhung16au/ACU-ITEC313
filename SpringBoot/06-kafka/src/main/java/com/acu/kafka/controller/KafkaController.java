@@ -24,7 +24,7 @@ public class KafkaController {
     @PostMapping
     public ResponseEntity<Map<String, Object>> sendMessage(@RequestBody Message message) {
         try {
-            CompletableFuture<org.springframework.kafka.support.SendResult<String, Message>> future = 
+            CompletableFuture<org.springframework.kafka.support.SendResult<String, Object>> future = 
                 kafkaService.sendMessage(message);
             
             future.join(); // Wait for completion
@@ -201,7 +201,7 @@ public class KafkaController {
 
         for (Message message : messages) {
             try {
-                CompletableFuture<org.springframework.kafka.support.SendResult<String, Message>> future = 
+                CompletableFuture<org.springframework.kafka.support.SendResult<String, Object>> future = 
                     kafkaService.sendMessage(message);
                 future.join();
                 successCount++;
