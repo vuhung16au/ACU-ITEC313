@@ -44,57 +44,57 @@ Each project is self-contained, thoroughly commented, and includes practical exa
 | Project                    | Estimated Time |
 |----------------------------|:-------------:|
 | **Priority 1: Essential Java Basics** |               |
-| HelloWorld                 |    30 min     |
-| Variables-DataTypes        |    60 min     |
-| Input-Output               |    60 min     |
-| Operators-Expressions      |    60 min     |
-| Constants-Finals           |    45 min     |
-| If-Else-Conditions         |    45 min     |
-| Switch-Statement           |    45 min     |
-| While-Loops                |    45 min     |
-| For-Loops                  |    45 min     |
-| Loop-Control               |    45 min     |
-| Methods-Basic              |    60 min     |
-| Method-Overloading         |    45 min     |
-| Recursion                  |    60 min     |
-| Variable-Scope             |    45 min     |
+| 00.HelloWorld              |    30 min     |
+| 01.Variables-DataTypes     |    60 min     |
+| 03.Input-Output            |    60 min     |
+| 02.Operators-Expressions   |    60 min     |
+| 23.Constants-Finals        |    45 min     |
+| 04.If-Else-Conditions      |    45 min     |
+| 05.Switch-Statement        |    45 min     |
+| 06.While-Loops             |    45 min     |
+| 07.For-Loops               |    45 min     |
+| 08.Loop-Control            |    45 min     |
+| 09.Methods-Basic           |    60 min     |
+| 10.Method-Overloading      |    45 min     |
+| 41.Recursion               |    60 min     |
+| 11.Variable-Scope          |    45 min     |
 |                            |               |
 | **Priority 2: Object-Oriented Fundamentals** |         |
-| Classes-Objects            |    60 min     |
-| Constructors               |    45 min     |
-| Instance-Variables         |    45 min     |
-| Static-Members             |    45 min     |
-| Encapsulation              |    45 min     |
-| Inheritance-Basic          |    60 min     |
-| Abstract-Classes           |    60 min     |
-| Interfaces-Basic           |    60 min     |
-| Polymorphism               |    60 min     |
+| 19.Classes-Objects         |    60 min     |
+| 21.Constructors            |    45 min     |
+| 20.Instance-Variables      |    45 min     |
+| 22.Static-Members          |    45 min     |
+| 24.Encapsulation           |    45 min     |
+| 25.Inheritance-Basic       |    60 min     |
+| 27.Abstract-Classes        |    60 min     |
+| 28.Interfaces-Basic        |    60 min     |
+| 26.Polymorphism            |    60 min     |
 |                            |               |
 | **Priority 3: Data Structures & Collections** |        |
-| Arrays-Basic               |    60 min     |
-| Multidimensional-Arrays    |    60 min     |
-| Array-Algorithms           |    60 min     |
-| ArrayList-Basic            |    60 min     |
-| LinkedList                 |    60 min     |
-| HashMap-Basic              |    60 min     |
-| HashSet                    |    45 min     |
-| Collections-Utility        |    45 min     |
+| 15.Arrays-Basic            |    60 min     |
+| 17.Multidimensional-Arrays |    60 min     |
+| 18.Array-Algorithms        |    60 min     |
+| 31.ArrayList-Basic         |    60 min     |
+| 32.LinkedList              |    60 min     |
+| 34.HashMap-Basic           |    60 min     |
+| 33.HashSet                 |    45 min     |
+| 35.Collections-Utility     |    45 min     |
 |                            |               |
 | **Priority 4: Error Handling & Debugging** |           |
-| Error-Exception-Handling   |    60 min     |
-| Custom-Exceptions          |    45 min     |
-| Debugging-Techniques       |    45 min     |
-| Unit-Testing-Basic         |    45 min     |
+| 29.Error-Exception-Handling |    60 min     |
+| 30.Custom-Exceptions       |    45 min     |
+| 43.Debugging-Techniques    |    45 min     |
+| 42.Unit-Testing-Basic      |    45 min     |
 |                            |               |
 | **Other/Advanced Topics**  |               |
-| File-Handling              |    60 min     |
-| Text-File-Processing       |    60 min     |
-| CSV-File-Handling          |    60 min     |
-| Serialization-Basic        |    60 min     |
-| String-Manipulation        |    45 min     |
-| StringBuilder-StringBuffer |    45 min     |
-| Regular-Expressions        |    45 min     |
-| String-Algorithms          |    60 min     |
+| 36.File-Handling           |    60 min     |
+| 37.Text-File-Processing    |    60 min     |
+| 38.CSV-File-Handling       |    60 min     |
+| 39.Serialization-Basic     |    60 min     |
+| 12.String-Manipulation     |    45 min     |
+| 13.StringBuilder-StringBuffer |    45 min     |
+| 40.Regular-Expressions     |    45 min     |
+| 14.String-Algorithms       |    60 min     |
 
 ---
 
@@ -102,56 +102,56 @@ Each project is self-contained, thoroughly commented, and includes practical exa
 
 ### Priority 1: Essential Java Basics (13 projects)
 #### Core Syntax & Data Types
-- [Variables-DataTypes](Variables-DataTypes/) - Primitive types, wrapper classes, type conversion
-- [Input-Output](Input-Output/) - Scanner, BufferedReader, command-line arguments  
-- [Operators-Expressions](Operators-Expressions/) - All operator types, precedence, expressions
-- [Constants-Finals](Constants-Finals/) - Final variables, naming conventions
+- [01.Variables-DataTypes](01.Variables-DataTypes/) - Primitive types, wrapper classes, type conversion
+- [03.Input-Output](03.Input-Output/) - Scanner, BufferedReader, command-line arguments  
+- [02.Operators-Expressions](02.Operators-Expressions/) - All operator types, precedence, expressions
+- [23.Constants-Finals](23.Constants-Finals/) - Final variables, naming conventions
 
 #### Control Structures
-- [If-Else-Conditions](If-Else-Conditions/) - Conditional logic, nested conditions, ternary
-- [Switch-Statement](Switch-Statement/) - Switch cases, break, default, enhanced switch
-- [While-Loops](While-Loops/) - While, do-while, infinite loops
-- [For-Loops](For-Loops/) - Traditional for, enhanced for, nested loops
-- [Loop-Control](Loop-Control/) - Break, continue, labeled statements
+- [04.If-Else-Conditions](04.If-Else-Conditions/) - Conditional logic, nested conditions, ternary
+- [05.Switch-Statement](05.Switch-Statement/) - Switch cases, break, default, enhanced switch
+- [06.While-Loops](06.While-Loops/) - While, do-while, infinite loops
+- [07.For-Loops](07.For-Loops/) - Traditional for, enhanced for, nested loops
+- [08.Loop-Control](08.Loop-Control/) - Break, continue, labeled statements
 
 #### Methods & Functions
-- [Methods-Basic](Methods-Basic/) - Method creation, parameters, return types
-- [Method-Overloading](Method-Overloading/) - Multiple methods with same name
-- [Recursion](Recursion/) - Recursive methods, base cases, call stack
-- [Variable-Scope](Variable-Scope/) - Local, instance, class scope
+- [09.Methods-Basic](09.Methods-Basic/) - Method creation, parameters, return types
+- [10.Method-Overloading](10.Method-Overloading/) - Multiple methods with same name
+- [41.Recursion](41.Recursion/) - Recursive methods, base cases, call stack
+- [11.Variable-Scope](11.Variable-Scope/) - Local, instance, class scope
 
 ### Priority 2: Object-Oriented Fundamentals (9 projects)
 #### Basic OOP
-- [Classes-Objects](Classes-Objects/) - Class definition, object instantiation
-- [Constructors](Constructors/) - Default, parameterized, constructor chaining
-- [Instance-Variables](Instance-Variables/) - Fields, initialization, this keyword
-- [Static-Members](Static-Members/) - Static variables, methods, blocks
-- [Encapsulation](Encapsulation/) - Private fields, getters/setters, data hiding
+- [19.Classes-Objects](19.Classes-Objects/) - Class definition, object instantiation
+- [21.Constructors](21.Constructors/) - Default, parameterized, constructor chaining
+- [20.Instance-Variables](20.Instance-Variables/) - Fields, initialization, this keyword
+- [22.Static-Members](22.Static-Members/) - Static variables, methods, blocks
+- [24.Encapsulation](24.Encapsulation/) - Private fields, getters/setters, data hiding
 
 #### Inheritance & Polymorphism
-- [Inheritance-Basic](Inheritance-Basic/) - Extends, super keyword, method overriding
-- [Abstract-Classes](Abstract-Classes/) - Abstract classes and methods
-- [Interfaces-Basic](Interfaces-Basic/) - Interface implementation, default methods
-- [Polymorphism](Polymorphism/) - Runtime polymorphism, casting
+- [25.Inheritance-Basic](25.Inheritance-Basic/) - Extends, super keyword, method overriding
+- [27.Abstract-Classes](27.Abstract-Classes/) - Abstract classes and methods
+- [28.Interfaces-Basic](28.Interfaces-Basic/) - Interface implementation, default methods
+- [26.Polymorphism](26.Polymorphism/) - Runtime polymorphism, casting
 
 ### Priority 3: Data Structures & Collections (8 projects)
 #### Arrays
-- [Arrays-Basic](Arrays-Basic/) - Array declaration, initialization, access
-- [Multidimensional-Arrays](Multidimensional-Arrays/) - 2D arrays, jagged arrays
-- [Array-Algorithms](Array-Algorithms/) - Sorting, searching, manipulation
+- [15.Arrays-Basic](15.Arrays-Basic/) - Array declaration, initialization, access
+- [17.Multidimensional-Arrays](17.Multidimensional-Arrays/) - 2D arrays, jagged arrays
+- [18.Array-Algorithms](18.Array-Algorithms/) - Sorting, searching, manipulation
 
 #### Collections Framework
-- [ArrayList-Basic](ArrayList-Basic/) - Dynamic arrays, common operations
-- [LinkedList](LinkedList/) - Linked list operations, comparison with ArrayList
-- [HashMap-Basic](HashMap-Basic/) - Key-value pairs, basic operations
-- [HashSet](HashSet/) - Unique elements, set operations
-- [Collections-Utility](Collections-Utility/) - Collections class methods
+- [31.ArrayList-Basic](31.ArrayList-Basic/) - Dynamic arrays, common operations
+- [32.LinkedList](32.LinkedList/) - Linked list operations, comparison with ArrayList
+- [34.HashMap-Basic](34.HashMap-Basic/) - Key-value pairs, basic operations
+- [33.HashSet](33.HashSet/) - Unique elements, set operations
+- [35.Collections-Utility](35.Collections-Utility/) - Collections class methods
 
 ### Priority 4: Error Handling & Debugging (4 projects)
-- [Error-Exception-Handling](Error-Exception-Handling/) - Try-catch, finally, exception hierarchy
-- [Custom-Exceptions](Custom-Exceptions/) - Creating custom exception classes
-- [Debugging-Techniques](Debugging-Techniques/) - Print debugging, IDE debugging
-- [Unit-Testing-Basic](Unit-Testing-Basic/) - JUnit basics, test methods
+- [29.Error-Exception-Handling](29.Error-Exception-Handling/) - Try-catch, finally, exception hierarchy
+- [30.Custom-Exceptions](30.Custom-Exceptions/) - Creating custom exception classes
+- [43.Debugging-Techniques](43.Debugging-Techniques/) - Print debugging, IDE debugging
+- [42.Unit-Testing-Basic](42.Unit-Testing-Basic/) - JUnit basics, test methods
 
 ---
 
@@ -159,7 +159,7 @@ Each project is self-contained, thoroughly commented, and includes practical exa
 
 ```bash
 # Navigate to any project
-cd Variables-DataTypes
+cd 01.Variables-DataTypes
 
 # Compile and run
 make run
