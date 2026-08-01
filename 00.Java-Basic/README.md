@@ -41,60 +41,60 @@ Each project is self-contained, thoroughly commented, and includes practical exa
 
 ## ⏱️ Estimated Time to Learn
 
-| Project                    | Estimated Time |
-|----------------------------|:-------------:|
-| **Priority 1: Essential Java Basics** |               |
-| 00.HelloWorld              |    30 min     |
-| 01.Variables-DataTypes     |    60 min     |
-| 03.Input-Output            |    60 min     |
-| 02.Operators-Expressions   |    60 min     |
-| 23.Constants-Finals        |    45 min     |
-| 04.If-Else-Conditions      |    45 min     |
-| 05.Switch-Statement        |    45 min     |
-| 06.While-Loops             |    45 min     |
-| 07.For-Loops               |    45 min     |
-| 08.Loop-Control            |    45 min     |
-| 09.Methods-Basic           |    60 min     |
-| 10.Method-Overloading      |    45 min     |
-| 41.Recursion               |    60 min     |
-| 11.Variable-Scope          |    45 min     |
-|                            |               |
-| **Priority 2: Object-Oriented Fundamentals** |         |
-| 19.Classes-Objects         |    60 min     |
-| 21.Constructors            |    45 min     |
-| 20.Instance-Variables      |    45 min     |
-| 22.Static-Members          |    45 min     |
-| 24.Encapsulation           |    45 min     |
-| 25.Inheritance-Basic       |    60 min     |
-| 27.Abstract-Classes        |    60 min     |
-| 28.Interfaces-Basic        |    60 min     |
-| 26.Polymorphism            |    60 min     |
-|                            |               |
-| **Priority 3: Data Structures & Collections** |        |
-| 15.Arrays-Basic            |    60 min     |
-| 17.Multidimensional-Arrays |    60 min     |
-| 18.Array-Algorithms        |    60 min     |
-| 31.ArrayList-Basic         |    60 min     |
-| 32.LinkedList              |    60 min     |
-| 34.HashMap-Basic           |    60 min     |
-| 33.HashSet                 |    45 min     |
-| 35.Collections-Utility     |    45 min     |
-|                            |               |
-| **Priority 4: Error Handling & Debugging** |           |
-| 29.Error-Exception-Handling |    60 min     |
-| 30.Custom-Exceptions       |    45 min     |
-| 43.Debugging-Techniques    |    45 min     |
-| 42.Unit-Testing-Basic      |    45 min     |
-|                            |               |
-| **Other/Advanced Topics**  |               |
-| 36.File-Handling           |    60 min     |
-| 37.Text-File-Processing    |    60 min     |
-| 38.CSV-File-Handling       |    60 min     |
-| 39.Serialization-Basic     |    60 min     |
-| 12.String-Manipulation     |    45 min     |
-| 13.StringBuilder-StringBuffer |    45 min     |
-| 40.Regular-Expressions     |    45 min     |
-| 14.String-Algorithms       |    60 min     |
+| Project                                       | Estimated Time |
+| -----------------------------------------------| :--------------:|
+| **Priority 1: Essential Java Basics**         |                |
+| 00.HelloWorld                                 | 5 min          |
+| 01.Variables-DataTypes                        | 10 min         |
+| 03.Input-Output                               | 10 min         |
+| 02.Operators-Expressions                      | 10 min         |
+| 23.Constants-Finals                           | 5 min          |
+| 04.If-Else-Conditions                         | 10 min         |
+| 05.Switch-Statement                           | 5 min          |
+| 06.While-Loops                                | 5 min          |
+| 07.For-Loops                                  | 5 min          |
+| 08.Loop-Control                               | 5 min          |
+| 09.Methods-Basic                              | 10 min         |
+| 10.Method-Overloading                         | 5 min          |
+| 41.Recursion                                  | 10 min         |
+| 11.Variable-Scope                             | 5 min          |
+|                                               |                |
+| **Priority 2: Object-Oriented Fundamentals**  |                |
+| 19.Classes-Objects                            | 20 min         |
+| 21.Constructors                               | 10 min         |
+| 20.Instance-Variables                         | 10 min         |
+| 22.Static-Members                             | 10 min         |
+| 24.Encapsulation                              | 10 min         |
+| 25.Inheritance-Basic                          | 20 min         |
+| 27.Abstract-Classes                           | 20 min         |
+| 28.Interfaces-Basic                           | 20 min         |
+| 26.Polymorphism                               | 20 min         |
+|                                               |                |
+| **Priority 3: Data Structures & Collections** |                |
+| 15.Arrays-Basic                               | 20 min         |
+| 17.Multidimensional-Arrays                    | 15 min         |
+| 18.Array-Algorithms                           | 20 min         |
+| 31.ArrayList-Basic                            | 15 min         |
+| 32.LinkedList                                 | 15 min         |
+| 34.HashMap-Basic                              | 20 min         |
+| 33.HashSet                                    | 15 min         |
+| 35.Collections-Utility                        | 15 min         |
+|                                               |                |
+| **Priority 4: Error Handling & Debugging**    |                |
+| 29.Error-Exception-Handling                   | 20 min         |
+| 30.Custom-Exceptions                          | 15 min         |
+| 43.Debugging-Techniques                       | 15 min         |
+| 42.Unit-Testing-Basic                         | 15 min         |
+|                                               |                |
+| **Other/Advanced Topics**                     |                |
+| 36.File-Handling                              | 20 min         |
+| 37.Text-File-Processing                       | 15 min         |
+| 38.CSV-File-Handling                          | 15 min         |
+| 39.Serialization-Basic                        | 15 min         |
+| 12.String-Manipulation                        | 15 min         |
+| 13.StringBuilder-StringBuffer                 | 10 min         |
+| 40.Regular-Expressions                        | 15 min         |
+| 14.String-Algorithms                          | 20 min         |
 
 ---
 
