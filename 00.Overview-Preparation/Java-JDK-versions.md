@@ -101,8 +101,46 @@ This document compares three Java Development Kit (JDK) versions—JDK 24, JDK 2
 - **For Cutting-Edge Development:** JDK 24 offers the latest features (e.g., quantum-resistant cryptography, structured concurrency), but its short support cycle makes it suitable only for experimental or non-production environments.
 - **Migration Path:** Upgrading from JDK 17 to JDK 21 is recommended for LTS users due to improved performance, security, and features like virtual threads. Test applications for UTF-8 compatibility (introduced in JDK 18) before upgrading.
 
+## Switching Java Versions
+
+Depending on your operating system, there are different tools and methods available for managing and switching between installed Java versions.
+
+### macOS and Linux
+The easiest cross-platform method for Unix-based systems is using **SDKMAN!**:
+- **Install:** `curl -s "https://get.sdkman.io" | bash`
+- **List Versions:** `sdk list java`
+- **Install a Version:** `sdk install java 25-open`
+- **Switch Version:** `sdk use java 25-open` (for current session) or `sdk default java 25-open` (permanent)
+
+**Alternative for macOS (Homebrew):**
+If installed via Homebrew (e.g., `brew install openjdk@25`), you can update your `JAVA_HOME` in `~/.zshrc` or `~/.bash_profile`:
+```bash
+export JAVA_HOME="/opt/homebrew/opt/openjdk@25"
+export PATH="$JAVA_HOME/bin:$PATH"
+```
+
+**Alternative for Linux (update-alternatives):**
+Most Linux distributions use `update-alternatives` to manage default commands:
+```bash
+sudo update-alternatives --config java
+sudo update-alternatives --config javac
+```
+
+### Windows
+On Windows, you can manage Java versions by updating Environment Variables or using a version manager.
+
+**Method 1: Using SDKMAN! (via WSL or Git Bash)**
+If you are using Windows Subsystem for Linux (WSL) or a bash emulator like Git Bash, you can use SDKMAN! just like on Linux/macOS.
+
+**Method 2: Environment Variables**
+1. Open the Start Search, type in "env", and select "Edit the system environment variables".
+2. Click the "Environment Variables..." button.
+3. Under System variables, find and edit `JAVA_HOME` to point to your new JDK path (e.g., `C:\Program Files\Java\jdk-25`).
+4. Ensure the `Path` variable includes `%JAVA_HOME%\bin`.
+5. Restart your terminal for the changes to take effect.
+
 ## References
 
 - [Java Version History - Wikipedia](https://en.wikipedia.org/wiki/Java_version_history)
 - [Oracle JDK Release Notes](https://www.oracle.com/java/technologies/javase/jdk-relnotes-index.html)
-- Additional insights from Oracle blogs, InfoWorld, and INNOQ.
+
