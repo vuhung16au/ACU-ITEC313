@@ -14,3 +14,10 @@
  */
 // Example1.java
 // Example usage of arrays in Java 
+
+public class Example1 {
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 3};
+        System.out.println("Example1: " + java.util.Arrays.toString(arr));
+    }
+}

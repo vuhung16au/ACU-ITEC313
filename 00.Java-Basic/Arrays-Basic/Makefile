@@ -11,6 +11,7 @@ all: compile
 
 compile:
 	$(JAVAC) $(MAIN_CLASS).java
+	$(JAVAC) examples/*.java
 
 run: compile
 	$(JAVA) $(MAIN_CLASS)
