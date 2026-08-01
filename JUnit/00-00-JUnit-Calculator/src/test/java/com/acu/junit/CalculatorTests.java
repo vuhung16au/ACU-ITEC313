@@ -8,7 +8,7 @@ import org.junit.jupiter.params.provider.ValueSource;
 import static org.junit.jupiter.api.Assertions.*;
 
 /**
- * Test class for the Calculator class demonstrating JUnit 5 features.
+ * Test class for the Calculator class demonstrating JUnit 6 features.
  */
 @DisplayName("Calculator Tests")
 class CalculatorTests {

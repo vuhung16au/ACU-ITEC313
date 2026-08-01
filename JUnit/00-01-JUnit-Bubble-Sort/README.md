@@ -1,13 +1,13 @@
-# JUnit 5 Bubble Sort Example
+# JUnit 6 Bubble Sort Example
 
-A simple Java project demonstrating the Bubble Sort algorithm with focused JUnit 5 tests. This project showcases best practices in unit testing and algorithm implementation.
+A simple Java project demonstrating the Bubble Sort algorithm with focused JUnit 6 tests. This project showcases best practices in unit testing and algorithm implementation.
 
 ## Project Overview
 
-This project was migrated from a simple calculator example to demonstrate the bubble sort algorithm with JUnit 5 testing. It includes:
+This project was migrated from a simple calculator example to demonstrate the bubble sort algorithm with JUnit 6 testing. It includes:
 
 - **Bubble Sort Implementation**: Both ascending and descending sorting
-- **Focused JUnit 5 Tests**: 5 test cases covering essential scenarios
+- **Focused JUnit 6 Tests**: 5 test cases covering essential scenarios
 - **Maven Build System**: Clean, build, test, and run capabilities
 - **Educational Focus**: Demonstrates sorting algorithms and unit testing
 
@@ -18,12 +18,12 @@ src/
 ├── main/java/com/acu/bubblesort/
 │   └── BubbleSort.java          # Main bubble sort implementation
 └── test/java/com/acu/bubblesort/
-    └── BubbleSortTests.java     # JUnit 5 test cases (5 tests)
+    └── BubbleSortTests.java     # JUnit 6 test cases (5 tests)
 ```
 
 ## Prerequisites
 
-- **Java 11** or higher
+- **Java 25**
 - **Maven 3.6** or higher
 
 ## How to Run the Project
@@ -48,7 +48,7 @@ mvn clean compile
 ```bash
 mvn test
 ```
-- Compiles and runs all JUnit 5 tests
+- Compiles and runs all JUnit 6 tests
 - Shows test results and coverage
 - **Expected Output**: 5 tests passing
 
@@ -81,7 +81,7 @@ When you run `mvn test`, you should see output like:
 
 When you run `mvn exec:java`, you'll see:
 ```
-=== JUnit 5 Bubble Sort Demo ===
+=== JUnit 6 Bubble Sort Demo ===
 
 Original array:
 [64, 34, 25, 12, 22, 11, 90]
@@ -108,7 +108,7 @@ Empty array:
 After sorting:
 []
 
-Run 'mvn test' to execute the JUnit 5 tests!
+Run 'mvn test' to execute the JUnit 6 tests!
 ```
 
 ## Features
@@ -119,7 +119,7 @@ Run 'mvn test' to execute the JUnit 5 tests!
 - **Optimized**: Early termination when no swaps are needed
 - **Edge Case Handling**: Null, empty, and single-element arrays
 
-### JUnit 5 Test Coverage (5 Tests)
+### JUnit 6 Test Coverage (5 Tests)
 - **Sort Tests**: Essential sorting functionality (5 tests)
 - **Core Functionality**: Basic array sorting operations
 - **Edge Cases**: Empty arrays, single elements
@@ -168,7 +168,7 @@ public int[] sort(int[] arr) {
 **Time Complexity**: O(n²) worst case, O(n) best case (already sorted)
 **Space Complexity**: O(1) - in-place sorting
 
-## JUnit 5 Features Demonstrated
+## JUnit 6 Features Demonstrated
 
 - `@Test` - Basic test annotations
 - `@DisplayName` - Readable test names

@@ -10,7 +10,7 @@ import java.util.stream.Stream;
 import static org.junit.jupiter.api.Assertions.*;
 
 /**
- * Test class for the BubbleSort class demonstrating JUnit 5 features.
+ * Test class for the BubbleSort class demonstrating JUnit 6 features.
  */
 @DisplayName("Bubble Sort Tests")
 class BubbleSortTests {

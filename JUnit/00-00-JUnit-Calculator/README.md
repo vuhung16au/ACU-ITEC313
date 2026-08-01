@@ -1,6 +1,6 @@
-# JUnit 5 Calculator Example
+# JUnit 6 Calculator Example
 
-This is a simple Maven project demonstrating JUnit 5 testing framework with a basic Calculator class.
+This is a simple Maven project demonstrating JUnit 6 testing framework with a basic Calculator class.
 
 ## Project Structure
 
@@ -10,13 +10,13 @@ src/
 │   ├── Calculator.java    # Main calculator class with arithmetic operations
 │   └── Main.java         # Demo application
 └── test/java/com/acu/junit/
-    └── CalculatorTests.java  # JUnit 5 test cases
+    └── CalculatorTests.java  # JUnit 6 test cases
 ```
 
 ## Features
 
 - **Calculator Class**: Provides basic arithmetic operations (add, subtract, multiply, divide)
-- **JUnit 5 Tests**: Comprehensive test suite demonstrating various JUnit 5 features:
+- **JUnit 6 Tests**: Comprehensive test suite demonstrating various JUnit 6 features:
   - `@Test` annotations
   - `@DisplayName` for readable test names
   - `@Nested` classes for organizing tests
@@ -27,7 +27,7 @@ src/
 
 ## Prerequisites
 
-- Java 11 or higher
+- Java 25
 - Maven 3.6 or higher
 
 ## Building and Running
@@ -60,7 +60,7 @@ The test suite covers:
 - Exception handling (division by zero)
 - Parameterized tests with multiple input combinations
 
-## JUnit 5 Features Demonstrated
+## JUnit 6 Features Demonstrated
 
 1. **Annotations**: `@Test`, `@DisplayName`, `@Nested`, `@BeforeEach`
 2. **Assertions**: `assertEquals`, `assertNotNull`, `assertThrows`

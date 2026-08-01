@@ -162,7 +162,7 @@ By completing this project, students will:
 - **Implement Data Structures**: Build a working Bubble Sort algorithm
 - **Handle Edge Cases**: Test boundary conditions and error scenarios
 - **Refactor Code**: Improve implementation while maintaining functionality
-- **Use JUnit 5**: Master modern testing framework features
+- **Use JUnit 6**: Master modern testing framework features
 
 ## Conclusion
 
@@ -185,7 +185,7 @@ Students will learn that writing tests first helps them understand what they're 
 
 ### Prerequisites
 
-- **Java 11** or higher
+- **Java 25**
 - **Maven 3.6** or higher
 
 ### Maven Commands
@@ -202,7 +202,7 @@ mvn clean compile
 ```bash
 mvn test
 ```
-- Compiles and runs all JUnit 5 tests
+- Compiles and runs all JUnit 6 tests
 - Shows test results and coverage
 - **Expected Output**: 20 tests passing (5 nested test classes)
 
@@ -290,7 +290,7 @@ Run 'mvn test' to execute all TDD tests!
 
 #### Common Issues:
 
-1. **Java Version Error**: Ensure you have Java 11+ installed
+1. **Java Version Error**: Ensure you have Java 25 installed
    ```bash
    java -version
    ```

@@ -123,7 +123,7 @@ public class BubbleSort {
     public static void main(String[] args) {
         BubbleSort bubbleSort = new BubbleSort();
         
-        System.out.println("=== JUnit 5 Bubble Sort Demo ===");
+        System.out.println("=== JUnit 6 Bubble Sort Demo ===");
         System.out.println();
         
         // Test case 1: Normal array
@@ -176,6 +176,6 @@ public class BubbleSort {
         bubbleSort.printArray(arr5);
         System.out.println();
         
-        System.out.println("Run 'mvn test' to execute the JUnit 5 tests!");
+        System.out.println("Run 'mvn test' to execute the JUnit 6 tests!");
     }
 }

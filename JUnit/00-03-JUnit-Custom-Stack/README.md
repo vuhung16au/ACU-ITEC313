@@ -1,6 +1,6 @@
-# Custom Stack Implementation with JUnit 5 (Aussie Edition)
+# Custom Stack Implementation with JUnit 6 (Aussie Edition)
 
-This is a Maven project demonstrating JUnit 5 testing framework with a custom Stack data structure implementation. The project is designed to help students learn how to use JUnit for testing custom data structures, featuring Australian-themed data and examples.
+This is a Maven project demonstrating JUnit 6 testing framework with a custom Stack data structure implementation. The project is designed to help students learn how to use JUnit for testing custom data structures, featuring Australian-themed data and examples.
 
 ## Project Structure
 
@@ -10,13 +10,13 @@ src/
 │   ├── MyStack.java    # Custom Stack implementation
 │   └── Main.java       # Demo application
 └── test/java/com/acu/datastructure/stack/
-    └── MyStackTest.java  # Comprehensive JUnit 5 test suite
+    └── MyStackTest.java  # Comprehensive JUnit 6 test suite
 ```
 
 ## Features
 
 - **Custom Stack Implementation**: A generic stack data structure with basic operations
-- **JUnit 5 Tests**: Comprehensive test suite demonstrating various JUnit 5 features:
+- **JUnit 6 Tests**: Comprehensive test suite demonstrating various JUnit 6 features:
   - `@Test` annotations with `@DisplayName` for readable test names
   - `@BeforeEach` for test setup
   - `@Nested` classes for organizing tests by functionality
@@ -37,7 +37,7 @@ The `MyStack<E>` class provides the following operations:
 
 ## Prerequisites
 
-- Java 11 or higher
+- Java 25
 - Maven 3.6 or higher
 
 ## Building and Running
@@ -94,7 +94,7 @@ The test suite covers:
 - **Generic Types**: Testing with different data types (Integer, Double, custom objects)
 - **Parameterized Tests**: Data-driven testing with various inputs
 
-## JUnit 5 Features Demonstrated
+## JUnit 6 Features Demonstrated
 
 1. **Annotations**: `@Test`, `@DisplayName`, `@Nested`, `@BeforeEach`, `@ParameterizedTest`
 2. **Assertions**: `assertEquals`, `assertTrue`, `assertFalse`, `assertNull`, `assertThrows`
@@ -113,7 +113,7 @@ This project helps students understand:
 
 - How to structure unit tests for data structures
 - Testing both "happy path" and edge cases
-- Using JUnit 5 annotations effectively
+- Using JUnit 6 annotations effectively
 - Writing comprehensive test suites
 - Testing exception handling
 - Organizing tests with nested classes

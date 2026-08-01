@@ -9,7 +9,7 @@ import java.util.EmptyStackException;
 import static org.junit.jupiter.api.Assertions.*;
 
 /**
- * Comprehensive test suite for the MyStack class demonstrating JUnit 5 features.
+ * Comprehensive test suite for the MyStack class demonstrating JUnit 6 features.
  * This test class follows the project plan and demonstrates various testing concepts.
  */
 @DisplayName("MyStack Tests")

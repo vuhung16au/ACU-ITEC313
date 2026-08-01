@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
         Calculator calculator = new Calculator();
         
-        System.out.println("=== JUnit 5 Calculator Demo ===");
+        System.out.println("=== JUnit 6 Calculator Demo ===");
         System.out.println();
         
         // Demonstrate addition
@@ -44,6 +44,6 @@ public class Main {
         }
         
         System.out.println();
-        System.out.println("Run 'mvn test' to execute the JUnit 5 tests!");
+        System.out.println("Run 'mvn test' to execute the JUnit 6 tests!");
     }
 }
