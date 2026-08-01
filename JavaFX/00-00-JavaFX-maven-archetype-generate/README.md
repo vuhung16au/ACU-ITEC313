@@ -23,7 +23,7 @@ mvn archetype:generate \
         -DgroupId=org.openjfx \
         -DartifactId=sample \
         -Dversion=1.0.0 \
-        -Djavafx-version=24.0.2
+        -Djavafx-version=25.0.4
 ```
 
 This will create a new folder called `sample` with a basic JavaFX application.
