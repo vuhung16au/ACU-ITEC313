@@ -7,7 +7,7 @@ This project demonstrates a minimal JavaFX app and how to generate its Javadoc.
 HTML API docs are produced into `target/site/apidocs`.
 
 ```bash
-mvn -q -DskipTests javadoc:javadoc
+mvn -q -DskipTests clean package javadoc:javadoc
 ```
 
 Then open `target/site/apidocs/index.html` in your browser.

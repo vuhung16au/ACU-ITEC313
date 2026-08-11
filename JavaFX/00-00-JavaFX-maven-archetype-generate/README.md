@@ -51,11 +51,11 @@ The `pom.xml` file in the generated project includes the following important sec
 <dependency>
         <groupId>org.openjfx</groupId>
         <artifactId>javafx-controls</artifactId>
-        <version>24.0.2</version>
+          <version>25.0.4</version>
 </dependency>
 ```
 This adds the JavaFX controls library to your project.
-`24.0.2` is the latest stable version as of 9 August 2025.
+`25.0.4` is the latest stable version as of 9 August 2025.
 
 ### [JavaFX Maven Plugin](https://mvnrepository.com/artifact/org.openjfx/javafx-maven-plugin)
 

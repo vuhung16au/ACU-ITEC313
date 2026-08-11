@@ -1,0 +1,176 @@
+/* Bonus - External CSS with Two Themes */
+
+/* ========== LIGHT THEME (DEFAULT) ========== */
+.root {
+    -fx-font-family: "SansSerif";
+    -fx-font-size: 14px;
+    -fx-background-color: #ffffff;
+}
+
+.tab-pane {
+    -fx-background-color: #f5f5f5;
+}
+
+.tab {
+    -fx-background-color: #e0e0e0;
+    -fx-text-fill: #333333;
+}
+
+.tab:selected {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #000000;
+}
+
+.button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-padding: 8 16 8 16;
+    -fx-background-radius: 4;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #45a049;
+}
+
+.button:pressed {
+    -fx-background-color: #3d8b40;
+}
+
+.menu-bar {
+    -fx-background-color: #2c3e50;
+}
+
+.menu-bar .label {
+    -fx-text-fill: white;
+}
+
+.menu-item {
+    -fx-background-color: white;
+}
+
+.menu-item:focused {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+}
+
+/* ========== DARK THEME ========== */
+.root.dark-theme {
+    -fx-background-color: #2b2b2b;
+    -fx-text-fill: #e0e0e0;
+}
+
+.dark-theme .tab-pane {
+    -fx-background-color: #1e1e1e;
+}
+
+.dark-theme .tab {
+    -fx-background-color: #3c3c3c;
+    -fx-text-fill: #e0e0e0;
+}
+
+.dark-theme .tab:selected {
+    -fx-background-color: #2b2b2b;
+    -fx-text-fill: #ffffff;
+}
+
+.dark-theme .button {
+    -fx-background-color: #5a6268;
+    -fx-text-fill: white;
+}
+
+.dark-theme .button:hover {
+    -fx-background-color: #6c757d;
+}
+
+.dark-theme .button:pressed {
+    -fx-background-color: #545b62;
+}
+
+.dark-theme .label {
+    -fx-text-fill: #e0e0e0;
+}
+
+.dark-theme .text-field {
+    -fx-background-color: #3c3c3c;
+    -fx-text-fill: #e0e0e0;
+    -fx-prompt-text-fill: #888888;
+}
+
+.dark-theme .list-view {
+    -fx-background-color: #3c3c3c;
+}
+
+.dark-theme .list-cell {
+    -fx-background-color: #3c3c3c;
+    -fx-text-fill: #e0e0e0;
+}
+
+.dark-theme .list-cell:filled:selected {
+    -fx-background-color: #007acc;
+    -fx-text-fill: white;
+}
+
+.dark-theme .combo-box {
+    -fx-background-color: #3c3c3c;
+}
+
+.dark-theme .menu-bar {
+    -fx-background-color: #1e1e1e;
+}
+
+.dark-theme .menu-item {
+    -fx-background-color: #2b2b2b;
+    -fx-text-fill: #e0e0e0;
+}
+
+.dark-theme .menu-item:focused {
+    -fx-background-color: #007acc;
+    -fx-text-fill: white;
+}
+
+/* ========== BLUE THEME ========== */
+.root.blue-theme {
+    -fx-background-color: #e3f2fd;
+}
+
+.blue-theme .tab-pane {
+    -fx-background-color: #bbdefb;
+}
+
+.blue-theme .tab {
+    -fx-background-color: #90caf9;
+    -fx-text-fill: #0d47a1;
+}
+
+.blue-theme .tab:selected {
+    -fx-background-color: #e3f2fd;
+    -fx-text-fill: #1565c0;
+}
+
+.blue-theme .button {
+    -fx-background-color: #2196F3;
+    -fx-text-fill: white;
+}
+
+.blue-theme .button:hover {
+    -fx-background-color: #1976D2;
+}
+
+.blue-theme .menu-bar {
+    -fx-background-color: #1565c0;
+}
+
+/* ========== COMMON STYLES ========== */
+.separator {
+    -fx-padding: 5 0 5 0;
+}
+
+.text-field {
+    -fx-padding: 5;
+    -fx-background-radius: 3;
+}
+
+.slider {
+    -fx-background-color: transparent;
+}
