@@ -16,7 +16,7 @@
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
-            <version>25</version>
+            <version>${javafx.version}</version>
         </dependency>
     </dependencies>
     <build>
@@ -26,7 +26,6 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.14.0</version>
                 <configuration>
-                    <release>11</release>
                 </configuration>
             </plugin>
             <plugin>

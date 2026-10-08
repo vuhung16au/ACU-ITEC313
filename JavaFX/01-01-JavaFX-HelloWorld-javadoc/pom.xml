@@ -50,7 +50,6 @@
                 <artifactId>maven-javadoc-plugin</artifactId>
                 <version>3.8.0</version>
                 <configuration>
-                    <source>${maven.compiler.source}</source>
                     <detectJavaApiLink>true</detectJavaApiLink>
                     <links>
                         <link>https://openjfx.io/javadoc/24/</link>
@@ -72,7 +71,6 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.13.0</version>
                 <configuration>
-                    <release>21</release>
                 </configuration>
             </plugin>
             <plugin>

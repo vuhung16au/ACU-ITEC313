@@ -14,7 +14,7 @@
     <name>accessing-data-jpa</name>
     <description>Accessing Data with JPA</description>
     <properties>
-        <java.version>17</java.version>
+        <java.version>27</java.version>
     </properties>
     <dependencies>
         <dependency>

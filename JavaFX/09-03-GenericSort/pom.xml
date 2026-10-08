@@ -19,8 +19,6 @@
     <description>JavaFX app showcasing generic Bubble/Merge/Quick sort using Comparable and Comparator</description>
 
     <properties>
-        <maven.compiler.source>24</maven.compiler.source>
-        <maven.compiler.target>24</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <javafx.version>24</javafx.version>
         <javafx.maven.plugin.version>0.0.8</javafx.maven.plugin.version>
@@ -134,8 +132,6 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.11.0</version>
                 <configuration>
-                    <source>24</source>
-                    <target>24</target>
                 </configuration>
             </plugin>
             <plugin>

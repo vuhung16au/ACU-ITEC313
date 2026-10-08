@@ -23,7 +23,7 @@
     <property name="app.name" value="JavaFX-HelloWorld"/>
     <property name="version" value="1.0"/>
     <property name="main.class" value="com.example.App"/>
-    <property name="javafx.version" value="24.0.2"/>
+    <property name="javafx.version" value="27"/>
     <!-- JavaFX modules actually used by the app -->
     <property name="modules" value="javafx.controls,javafx.fxml"/>
     <!-- All modules we will download (include base + graphics for runtime support) -->
@@ -144,7 +144,7 @@
         <copy todir="${classes.dir}">
             <fileset dir="${resources.dir}" excludes="**/*.java"/>
         </copy>
-        <javac srcdir="${src.dir}" destdir="${classes.dir}" includeantruntime="false" release="21">
+        <javac srcdir="${src.dir}" destdir="${classes.dir}" includeantruntime="false" release="27">
             <compilerarg value="--module-path"/>
             <compilerarg value="${javafx.module.path.string}"/>
             <compilerarg value="--add-modules"/>
@@ -161,7 +161,7 @@
     <!-- ==== Compile Tests ==== -->
     <target name="compile-tests" depends="compile,resolve-testlibs" description="Compile test sources">
         <mkdir dir="${test.classes.dir}"/>
-        <javac srcdir="${test.src.dir}" destdir="${test.classes.dir}" includeantruntime="false" release="21" debug="true" debuglevel="lines,vars,source">
+        <javac srcdir="${test.src.dir}" destdir="${test.classes.dir}" includeantruntime="false" release="27" debug="true" debuglevel="lines,vars,source">
             <classpath>
                 <pathelement location="${classes.dir}"/>
                 <pathelement location="${junit.console.jar}"/>

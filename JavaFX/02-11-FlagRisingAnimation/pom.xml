@@ -51,8 +51,6 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>${maven.compiler.plugin.version}</version>
                 <configuration>
-                    <source>24</source>
-                    <target>24</target>
                     <compilerArgs>
                         <arg>--add-modules</arg>
                         <arg>javafx.controls,javafx.fxml,javafx.graphics</arg>

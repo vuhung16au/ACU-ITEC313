@@ -6,7 +6,7 @@ version := "0.1.0"
 scalaVersion := "2.13.14"
 
 // Pull JavaFX modules we need. Add others (graphics, fxml, media, etc.) if required.
-val javafxVersion = "24.0.2"
+val javafxVersion = "27"
 libraryDependencies ++= Seq(
   "org.openjfx" % "javafx-controls" % javafxVersion,
   "org.openjfx" % "javafx-graphics" % javafxVersion classifier (if (System.getProperty("os.name").toLowerCase.contains("mac")) "mac-aarch64" else "mac")
